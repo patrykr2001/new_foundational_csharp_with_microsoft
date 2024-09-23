@@ -23,5 +23,12 @@ class Program
         Console.WriteLine($"First roll: {roll1}");
         Console.WriteLine($"Second roll: {roll2}");
         Console.WriteLine($"Third roll: {roll3}");
+        
+        var firstValue = 500;
+        var secondValue = 600;
+
+        var largerValue = Math.Max(firstValue, secondValue);
+
+        Console.WriteLine(largerValue);
     }
 }
