@@ -8,5 +8,6 @@ class Program
         //Cwiczenie1Challenge.Run();
         //Cwiczenie2.Run();
         //Cwiczenie3.Run();
+        Cwiczenie3Challenge.Run();
     }
 }
