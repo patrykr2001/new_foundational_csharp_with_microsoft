@@ -12,6 +12,7 @@ class Program
         //Cwiczenie4.Run();
         //Cwiczenie4Challenge.Run();
         //Cwiczenie5.Run();
-        Cwiczenie5Challenge.Run();
+        //Cwiczenie5Challenge.Run();
+        Cwiczenie5Challenge2.Run();
     }
 }
