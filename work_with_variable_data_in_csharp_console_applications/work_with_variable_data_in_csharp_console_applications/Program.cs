@@ -5,6 +5,7 @@ class Program
     static void Main(string[] args)
     {
         //Cwiczenie1.Run();
-        Cwiczenie2.Run();
+        //Cwiczenie2.Run();
+        Cwiczenie2Challenge.Run();
     }
 }
