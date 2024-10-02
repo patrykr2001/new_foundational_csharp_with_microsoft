@@ -37,7 +37,7 @@ int[,] registerDailyStartingCash = new int[,] { { 1, 50 }, { 5, 20 }, { 10, 10 }
 int[] testData = new int[] { 6, 10, 17, 20, 31, 36, 40, 41 };
 int testCounter = 0;
 
-LoadTillEachMorning(registerDailyStartingCash, cashTill);
+//LoadTillEachMorning(registerDailyStartingCash, cashTill);
 
 registerCheckTillTotal = registerDailyStartingCash[0, 0] * registerDailyStartingCash[0, 1] + registerDailyStartingCash[1, 0] * registerDailyStartingCash[1, 1] + registerDailyStartingCash[2, 0] * registerDailyStartingCash[2, 1] + registerDailyStartingCash[3, 0] * registerDailyStartingCash[3, 1];
 
@@ -177,5 +177,5 @@ do
     {
         return $"The till has {cashTill[3] * 20 + cashTill[2] * 10 + cashTill[1] * 5 + cashTill[0]} dollars";
 
-    }s
+    }
 }
